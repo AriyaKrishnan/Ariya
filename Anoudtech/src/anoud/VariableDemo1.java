@@ -1,4 +1,4 @@
-package Anoud;
+package anoud;
 
 public class VariableDemo1 {
 
