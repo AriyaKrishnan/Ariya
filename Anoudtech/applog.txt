@@ -1,0 +1,43 @@
+INFO    2022-05-10 13:58:04,193 [main] anoud.StringDemo  - The value is..:h
+INFO    2022-05-10 13:58:04,194 [main] anoud.StringDemo  - The sub str is...:lo world
+INFO    2022-05-10 13:58:04,194 [main] anoud.StringDemo  - The value is..:lo w
+INFO    2022-05-10 13:58:04,194 [main] anoud.StringDemo  - The va...:6
+INFO    2022-05-10 13:58:04,194 [main] anoud.StringDemo  - false
+INFO    2022-05-10 13:58:04,194 [main] anoud.StringDemo  - true
+INFO    2022-05-10 13:58:04,194 [main] anoud.StringDemo  - 65
+INFO    2022-05-10 13:58:04,194 [main] anoud.StringDemo  - 67
+INFO    2022-05-10 13:58:04,194 [main] anoud.StringDemo  - -2
+INFO    2022-05-10 13:58:04,194 [main] anoud.StringDemo  - 2
+INFO    2022-05-10 14:00:52,600 [main] anoud.StringDemo  - The value is..:h
+INFO    2022-05-10 14:00:52,604 [main] anoud.StringDemo  - The sub str is...:lo world
+INFO    2022-05-10 14:00:52,604 [main] anoud.StringDemo  - The value is..:lo w
+INFO    2022-05-10 14:00:52,604 [main] anoud.StringDemo  - The va...:6
+INFO    2022-05-10 14:00:52,604 [main] anoud.StringDemo  - false
+INFO    2022-05-10 14:00:52,604 [main] anoud.StringDemo  - true
+INFO    2022-05-10 14:00:52,604 [main] anoud.StringDemo  - 65
+INFO    2022-05-10 14:00:52,604 [main] anoud.StringDemo  - 67
+INFO    2022-05-10 14:00:52,604 [main] anoud.StringDemo  - -2
+INFO    2022-05-10 14:00:52,604 [main] anoud.StringDemo  - 2
+INFO    2022-05-10 14:00:52,604 [main] anoud.StringDemo  - 17
+INFO    2022-05-10 14:12:01,903 [main] anoud.StringDemo  - The value is..:h
+INFO    2022-05-10 14:12:01,904 [main] anoud.StringDemo  - The sub str is...:lo world
+INFO    2022-05-10 14:12:01,904 [main] anoud.StringDemo  - The value is..:lo wor
+INFO    2022-05-10 14:12:01,904 [main] anoud.StringDemo  - The va...:6
+INFO    2022-05-10 14:12:01,904 [main] anoud.StringDemo  - false
+INFO    2022-05-10 14:12:01,904 [main] anoud.StringDemo  - true
+INFO    2022-05-10 14:12:01,904 [main] anoud.StringDemo  - 65
+INFO    2022-05-10 14:12:01,904 [main] anoud.StringDemo  - 67
+INFO    2022-05-10 14:12:01,904 [main] anoud.StringDemo  - -2
+INFO    2022-05-10 14:12:01,905 [main] anoud.StringDemo  - 2
+INFO    2022-05-10 14:12:01,905 [main] anoud.StringDemo  - 17
+INFO    2022-05-10 15:31:59,817 [main] anoud.StringDemo  - The value is..:h
+INFO    2022-05-10 15:31:59,818 [main] anoud.StringDemo  - The sub str is...:lo world
+INFO    2022-05-10 15:31:59,818 [main] anoud.StringDemo  - The value is..:lo wor
+INFO    2022-05-10 15:31:59,818 [main] anoud.StringDemo  - The va...:6
+INFO    2022-05-10 15:31:59,818 [main] anoud.StringDemo  - false
+INFO    2022-05-10 15:31:59,818 [main] anoud.StringDemo  - true
+INFO    2022-05-10 15:31:59,818 [main] anoud.StringDemo  - 65
+INFO    2022-05-10 15:31:59,818 [main] anoud.StringDemo  - 67
+INFO    2022-05-10 15:31:59,818 [main] anoud.StringDemo  - -2
+INFO    2022-05-10 15:31:59,819 [main] anoud.StringDemo  - 2
+INFO    2022-05-10 15:31:59,819 [main] anoud.StringDemo  - 17
