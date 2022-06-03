@@ -1,0 +1,79 @@
+package anoud;
+
+public class InheritanceDemo1 {
+
+	public static void main(String[] args) {
+		Hall hall = new BirthDayHall();
+		hall = new MarriageHall();
+
+	}
+
+}
+abstract class Hall{
+	
+}
+class BirthDayHall extends Hall{
+	
+}
+class MarriageHall extends Hall{
+	
+}
+class BadPaintBrush{
+	public void doPaint(int i) {
+		if(i==1) {
+			System.out.println("Red color");
+		}
+		else if(i==2) {
+			System.out.println("Green color");
+		}
+	}
+}
+class PaintBrush{
+	public void doPaint(Paint p) {
+		System.out.println(p);
+		
+	}
+}
+abstract class Paint{}
+class BluePaint extends Paint{}
+class GreenPaint extends Paint{}
+
+class BadDog{
+	public void play(String item) {
+		if(item.equals("stick")){
+			System.out.println("running");
+		}
+		else if(item.equals("stone")) {
+			System.out.println("biting");
+			
+		}
+		else if(item.equals("biscuit")) {
+			System.out.println("enjoying");
+	}
+}
+}
+class GoodDog{
+	public void play(Item item) {
+		item.display();
+		
+	}
+}
+abstract class Item{
+	public abstract void display();
+}
+class Stone1 extends Item{
+	public void display() {
+		System.out.println("Biting");
+	}
+}
+class Stick1 extends Item{
+	public void display() {
+		System.out.println("Running");
+	}
+}
+class Biscuit1 extends Item{
+	public void display() {
+		System.out.println("Happy");
+	}
+}
+
