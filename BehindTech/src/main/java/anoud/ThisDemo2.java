@@ -9,7 +9,7 @@ public class ThisDemo2 {
 		public static void main(String[] args) {
 			//this keyword cannot be used inside a static method
 			ThisDemo2 obj=new ThisDemo2("some value...");
-			obj.printS("aaaaaaaaaa");
+			obj.printS("aaaaaa");
 		}
 		
 		public void printS(String s) {
