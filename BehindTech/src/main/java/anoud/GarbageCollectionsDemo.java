@@ -9,7 +9,7 @@ public class GarbageCollectionsDemo {
 		System.out.println("Free Memory.."+r.freeMemory());
 		r.gc();
 		System.out.println("Free Memory.."+r.freeMemory());
-GrandFather tatha=new GrandFather();
+		GrandFather tatha=new GrandFather();
 		
 		System.out.println("Free Memory..:"+r.freeMemory());
 		//System.out.println(tatha.getGold());
