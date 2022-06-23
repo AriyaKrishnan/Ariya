@@ -61,19 +61,23 @@ class GoodDog{
 abstract class Item{
 	public abstract void display();
 }
-class Stone1 extends Item{
-	public void display() {
-		System.out.println("Biting");
+class Stone2 extends Item{
+	
+		@Override
+		public void display() {
+			System.out.println("biting...............");
+		}
 	}
-}
-class Stick1 extends Item{
-	public void display() {
-		System.out.println("Running");
+	class Stick2 extends Item{
+		@Override
+		public void display() {
+			System.out.println("running....");
+		}
 	}
-}
-class Biscuit1 extends Item{
-	public void display() {
-		System.out.println("Happy");
+	class Biscuit2 extends Item{
+		@Override
+		public void display() {
+			System.out.println("enjoying....");
+		}
 	}
-}
 
