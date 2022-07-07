@@ -12,7 +12,7 @@ public class JdbcDemo9 {
 				("jdbc:mysql://localhost:3306/behindtech","root","root");
 		
 		System.out.println(con);
-String sql="{call proc2(?,?)}";
+		String sql="{call proc2(?,?)}";
 		
 		CallableStatement cs=con.prepareCall(sql);
 		cs.setString(1, "tom");
