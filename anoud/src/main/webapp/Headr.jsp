@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -5,8 +6,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-<h1>Welcome...</h1>
-
+<h1>Header</h1>
 
 </body>
 </html>
