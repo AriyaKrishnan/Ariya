@@ -10,7 +10,9 @@
 <h1>Fruit Shop</h1>
 <form action="shop.do" method="post">
 <input type="hidden" name="action" value="purchase">
+
 <input type="hidden" name="nextshop" value="shop2">
+
 <input type="radio" name="apple" value="rs50">Apple
 <input type="radio" name="mango" value="rs30">Mango
 <input type="radio" name="banana" value="rs20">Banana

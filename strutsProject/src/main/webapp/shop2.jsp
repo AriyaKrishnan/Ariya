@@ -11,6 +11,7 @@
 <form action="shop.do" method="post">
 <input type="hidden" name="action" value="purchase">
 <input type="hidden" name="nextshop" value="shop3">
+
 <input type="radio" name="cucumber" value="rs30">Cucumber
 <input type="radio" name="tomato" value="rs10">Tomato
 <input type="radio" name="onions" value="rs25">Onions
