@@ -15,7 +15,7 @@ class MyComparator1 implements Comparator<A>{
 	@Override
 	public int compare(A o1, A o2) {
 		
-		return o1.compareTo(o2);
+		return o2.compareTo(o1);
 	}
 }
 class A implements Comparable<A>{

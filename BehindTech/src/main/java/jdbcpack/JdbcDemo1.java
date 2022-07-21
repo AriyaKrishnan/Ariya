@@ -11,7 +11,7 @@ public class JdbcDemo1 {
 		Connection con=DriverManager.getConnection
 				("jdbc:mysql://localhost:3306/behindtech","root","root");
 		
-		System.out.println(con);
+		
 		String sql="update users set flag=0";
 		Statement stmt=con.createStatement();
 		int noofrowschanged=stmt.executeUpdate(sql);

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
+  <servlet>
+    <description></description>
+    <display-name>JDBCStoredProcedures</display-name>
+    <servlet-name>JDBCStoredProcedures</servlet-name>
+    <servlet-class>jdbctest.JDBCStoredProcedures</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>JDBCStoredProcedures</servlet-name>
+    <url-pattern>/JDBCStoredProcedures</url-pattern>
+  </servlet-mapping>
+  <display-name>test</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>JDBCStoredProcedure</display-name>
+    <servlet-name>JDBCStoredProcedure</servlet-name>
+    <servlet-class>jdbctest.JDBCStoredProcedure</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>JDBCStoredProcedure</servlet-name>
+    <url-pattern>/JDBCStoredProcedure</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>JDBCStoredProcedure1</display-name>
+    <servlet-name>JDBCStoredProcedure1</servlet-name>
+    <servlet-class>jdbctest.JDBCStoredProcedure1</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>JDBCStoredProcedure1</servlet-name>
+    <url-pattern>/JDBCStoredProcedure1</url-pattern>
+  </servlet-mapping>
+</web-app>

@@ -7,7 +7,10 @@
 <title>Insert title here</title>
 </head>
 <body  bgcolor="Grey">
+<hr>
+<jsp:include page="logout.jsp" />
 <h1>Vegetable Shop</h1>
+<hr>
 <form action="shop.do" method="post">
 <input type="hidden" name="action" value="purchase">
 <input type="hidden" name="nextshop" value="shop3">
