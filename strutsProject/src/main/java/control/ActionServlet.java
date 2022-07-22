@@ -13,7 +13,7 @@ public class ActionServlet extends HttpServlet {
 	RequestProcesser rp;
 	@Override
 	public void init(ServletConfig config) throws ServletException {
-		 rp = new RequestProcesser();
+		rp = new RequestProcesser();
 		String path=config.getServletContext().getRealPath("/WEB-INF/config.properties");
 		config.getServletContext().setAttribute("path", path);
 		
