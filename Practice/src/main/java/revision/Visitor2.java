@@ -24,7 +24,7 @@ class DogBiteException extends DogExceptions{
 	}
 	@Override
 	public void visit() {
-		// TODO Auto-generated method stub
+		
 		new Handler().handle(this);
 	}
 }

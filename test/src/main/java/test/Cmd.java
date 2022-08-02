@@ -46,10 +46,10 @@ public class Cmd {
 			command[slot].execute();
 		}
 	}
-	interface Command{
+	interface Command1{
 		public void execute();
 	}
-	class DummyCommand implements Command{
+	class DummyCommand1 implements Command{
 		@Override
 		public void execute() {
 			System.out.println("I am dummy I am yet to be operational...");
