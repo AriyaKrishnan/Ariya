@@ -42,8 +42,11 @@ public class MyController {
 	@RequestMapping(method=RequestMethod.POST,value="/register")
 	public ModelAndView processFrom(@Valid@ModelAttribute("userObj") UserDTO us,BindingResult rs,HttpServletRequest request) {
 		ModelAndView mandv=new ModelAndView();
-		
-		
+		if (rs.hasErrors()) {
+			mandv.setViewName("register");
+			return mandv;
+		} else {
+
 		System.out.println("Username...:"+us.getUname());
 		String pass1=request.getParameter("pass1");
 		String pass2=request.getParameter("pass2");
@@ -69,6 +72,7 @@ else {
 	return mandv;
 	
 }
+		}
 
 }
 @RequestMapping(method=RequestMethod.GET,value="/register1")
