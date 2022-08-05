@@ -1,19 +1,36 @@
-<%@ taglib uri="http://www.springframework.org/tags/form" prefix="form"%>
+<%@page import="java.sql.ResultSet"%>
+<%@page import="com.example.demo.DBconn" %>
+<%@page import="java.io.OutputStream"%>
+
+<html><body>
 <style>
 body{
 background-image:url("https://th.bing.com/th/id/OIP.RXWE5k-gCzijp_XiUDqtbwHaFA?pid=ImgDet&rs=1");
 background-size:cover;
 }
 </style>
-<jsp:include page="logout.jsp" /><center>
-<h1>Vegetable Shop</h1>
+<center>
+<h1>Fruit Shop</h1>
 <hr>
-<form:form action="/form/shop" method="POST">
+
+<%! ResultSet rs ;
+DBconn im ;
+    public void jspInit() {
+        im = new DBconn();
+    }
+%>
+<form action="/form/shop" method="post">
 <input type="hidden" name="shop" value="shop3">
-<input type="radio" name="cucumber" value="rs30">Cucumber
-<input type="radio" name="tomato" value="rs10">Tomato
-<input type="radio" name="onions" value="rs25">Onions
-<input type="submit" value="Next">
-</form:form><hr></center>
+<% rs=im.checkTable("vegetableshop");
+while(rs.next()){ %>
+<span><input type="checkbox" name=<%=rs.getString(1) %> value=<%=rs.getString(2) %> >
+	<%=rs.getString(1) %>
+	<img alt="Image not found......" src=/form/shopimg?shopname=vegetableshop&name=<%=rs.getString(1) %> width="100px" height="100px">
+	 <% } %></span>
+    <input class="sub" type="submit" value="Next">
+</form>
+</body>
+</html>
+
 
 

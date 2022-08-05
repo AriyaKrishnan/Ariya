@@ -1,11 +1,27 @@
-<%@ taglib uri="http://www.springframework.org/tags/form" prefix="form"%>
+<%@page import="java.sql.ResultSet"%>
+<%@page import="com.example.demo.DBconn" %>
+<%@page import="java.io.OutputStream"%>
+
+<html><body>
 <center>
 <h1>Fruit Shop</h1>
 <hr>
-<form:form action="/form/shop" method="POST">
+
+<%! ResultSet rs ;
+DBconn im ;
+    public void jspInit() {
+        im = new DBconn();
+    }
+%>
+<form action="/form/shop" method="post">
 <input type="hidden" name="shop" value="shop2">
-<input type="radio" name="apple" value="rs50">Apple
-<input type="radio" name="mango" value="rs30">Mango
-<input type="radio" name="banana" value="rs20">Banana
-<input type="submit" value="Next">
-</form:form></center>
+<% rs=im.checkTable("fruitshop");
+while(rs.next()){ %>
+<span><input type="checkbox" name=<%=rs.getString(1) %> value=<%=rs.getString(2) %> >
+	<%=rs.getString(1) %>
+	<img alt="Image not found......" src=/form/shopimg?shopname=fruitshop&name=<%=rs.getString(1) %> width="100px" height="100px">
+	 <% } %></span>
+    <input class="sub" type="submit" value="Next">
+</form>
+</body>
+</html>

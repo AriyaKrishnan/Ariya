@@ -1,16 +1,26 @@
 package com.example.demo;
 import javax.persistence.Entity;
 import javax.persistence.Id;
+import javax.validation.constraints.Size;
 @Entity
 public class Customer {
 	@Id
 	private int uid;
+	@Size(min=3, max=50)
 	private String uname;
 	private String upass;
+	private String address;
 	private String phno;
 	private String city;
 	private int flag;
 	
+	
+	public String getAddress() {
+		return address;
+	}
+	public void setAddress(String address) {
+		this.address = address;
+	}
 	public int getUid() {
 		return uid;
 	}

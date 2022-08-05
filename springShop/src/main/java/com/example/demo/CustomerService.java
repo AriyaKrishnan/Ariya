@@ -19,6 +19,9 @@ public class CustomerService {
 	public void setCdao(CustomerDAO cdao) {
 		this.cdao = cdao;
 	}
+	public void saveUser(Customer us) {
+		getCdao().save(us);
+	}
 
 	public List<Customer> checkUser(String uname, String upass) {
 		return getCdao().CheckUser(uname, upass);
@@ -39,5 +42,7 @@ public class CustomerService {
 		cd.setFlag(a);
 		getCdao().save(cd);
 	}
+
+	
 
 }

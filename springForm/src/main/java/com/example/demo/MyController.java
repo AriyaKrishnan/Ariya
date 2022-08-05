@@ -39,6 +39,7 @@ public class MyController {
 		mandv.setViewName("register");
 		return mandv;
 	}
+	
 	@RequestMapping(method=RequestMethod.POST,value="/register")
 	public ModelAndView processFrom(@Valid@ModelAttribute("userObj") UserDTO us,BindingResult rs,HttpServletRequest request) {
 		ModelAndView mandv=new ModelAndView();
