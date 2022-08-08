@@ -45,7 +45,6 @@ public class MyController {
 	@RequestMapping(method = RequestMethod.POST, value = "/forms1")
 	public ModelAndView welcome1(HttpServletRequest request) {
 		ModelAndView mv = new ModelAndView();
-		
 		String uname = request.getParameter("uname");
 		String upass = request.getParameter("upass");
 		System.out.println(uname + ":" + upass);
